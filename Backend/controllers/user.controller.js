@@ -50,9 +50,13 @@ export const login = asyncHandler(async (req, res) => {
 
 export const logout = async (req, res) => {
   res
-    .clearCookie("token")
+    .clearCookie("token", {
+      httpOnly: true,
+      secure: true,
+      sameSite: "none",
+    })
     .status(200)
-    .json({ message: "loged out successfully" });
+    .json({ message: "logged out successfully" });
 };
 
 export const user = (req, res) => {
