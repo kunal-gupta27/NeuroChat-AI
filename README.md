@@ -95,7 +95,7 @@ NeuroChat-AI/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/NeuroChat-AI.git
+git clone https://github.com/kunal-gupta27/NeuroChat-AI.git
 ```
 
 ---
@@ -154,8 +154,8 @@ npm run dev
 
 ## Kunal Gupta
 
-* 📧 Email: [kunalgupta.dev@gmail.com](mailto:kunalgupta.cse2027@gmail.com)
-* 💻 GitHub: [https://github.com/yourusername](https://github.com/kunal-gupta27)
+* 📧 Email: (mailto:kunalgupta.cse2027@gmail.com)
+* 💻 GitHub: (https://github.com/kunal-gupta27)
 
 ---
 
