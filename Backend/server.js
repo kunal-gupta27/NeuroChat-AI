@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://neuro-chat-o8kcns0p6-kunal-gupta27.vercel.app",
+    origin: "https://neuro-chat-ai-git-main-kunal-gupta27.vercel.app",
     credentials: true,
   }),
 );
