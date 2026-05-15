@@ -11,12 +11,14 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
+
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://neurochat-ai-app.vercel.app",
     credentials: true,
   }),
 );
+
 app.use(cookieParser());
 
 app.use("/api", authRoutes);
@@ -29,12 +31,11 @@ app.listen(PORT, () => {
   connectDB();
 });
 
-
-// I am connected database here
+// database connection
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URL);
-    console.log("db connected succesfully");
+    console.log("db connected successfully");
   } catch (err) {
     console.log("failed to connect with db", err);
   }
