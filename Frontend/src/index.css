@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* gray-600 */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9333ea; /* purple */
+}
+
+@layer components {
+  .menu-item {
+    @apply cursor-pointer
+      my-[0.3rem]
+      text-[0.9rem]
+      py-2
+      px-[0.2rem]
+      hover:bg-[rgba(180,180,180,0.1)]
+      hover:rounded-md
+      hover:text-shadow-lg
+      hover:text-shadow-purple-600;
+  }
+  .navlink-item {
+    @apply text-xl
+     hover:text-shadow-lg
+     hover:text-shadow-purple-600
+    bg-[rgb(255,255,255,0.005)];
+  }
+}
