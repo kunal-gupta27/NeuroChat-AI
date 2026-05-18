@@ -4,6 +4,12 @@ NeuroChat AI is a modern AI-powered chat application built using the MERN Stack 
 
 The platform provides a premium SaaS-style user experience with authentication, chat thread management, markdown rendering, syntax highlighting, dark/light themes, and responsive UI.
 
+🌐 **Live Demo:**  
+https://neuro-chat-ai-git-main-kunal-gupta27.vercel.app/
+
+🔗 **GitHub Repository:**  
+https://github.com/kunal-gupta27/NeuroChat-AI
+
 ---
 
 # ✨ Features
